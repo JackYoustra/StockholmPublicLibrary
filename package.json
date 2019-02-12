@@ -2,6 +2,7 @@
   "name": "StockholmPublicLibrary",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "react": "^16.5.1",
     "react-art": "^16.5.1",
