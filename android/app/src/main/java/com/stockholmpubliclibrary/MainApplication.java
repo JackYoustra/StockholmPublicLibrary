@@ -1,4 +1,4 @@
-package com.rnwboilerplate;
+package com.stockholmpubliclibrary;
 
 import android.app.Application;
 
