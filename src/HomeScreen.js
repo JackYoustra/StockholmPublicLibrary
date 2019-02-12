@@ -16,16 +16,59 @@ const HomeScreen = ({ navigation }) => {
         Welcome to my page on the Stockholm Public Library!
       </Text>
       <Text style={styles.instructions}>
-        This component is shared between web and react environment. To see how
-        it works, just edit the HomeScreen.js
+        This is my page on the Stockholm Public Library. Click the links to learn more!
       </Text>
       <Button
-        title="Go to Second!"
+        title="Basic info"
         onPress={() => navigation.navigate("Basic_info")}
       />
       <Button
-        title="Das Modal"
-        onPress={() => navigation.navigate("DasModal")}
+        title="Interior of the building"
+        onPress={() =>
+          navigation.navigate("User", { name: "interior" })
+        }
+      />
+      <Button
+        title="Google Earth view"
+        onPress={() =>
+          navigation.navigate("User", { name: "googleearth" })
+        }
+      />
+      <Button
+        title="Video that features the building"
+        onPress={() =>
+          navigation.navigate("User", { name: "vidya" })
+        }
+      />
+      <Button
+        title="Photo Album"
+        onPress={() =>
+          navigation.navigate("User", { name: "album" })
+        }
+      />
+      <Button
+        title="Blog"
+        onPress={() =>
+          navigation.navigate("User", { name: "blog" })
+        }
+      />
+      <Button
+        title="Magazine or Journal Article"
+        onPress={() =>
+          navigation.navigate("User", { name: "magazine" })
+        }
+      />
+      <Button
+        title="Architect's Article"
+        onPress={() =>
+          navigation.navigate("User", { name: "architect" })
+        }
+      />
+      <Button
+        title="Full bibliography"
+        onPress={() =>
+          navigation.navigate("User", { name: "bibliography" })
+        }
       />
     </View>
   );
