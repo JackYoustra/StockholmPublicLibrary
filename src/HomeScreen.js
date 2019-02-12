@@ -16,7 +16,7 @@ const HomeScreen = ({ navigation }) => {
         Welcome to my page on the Stockholm Public Library!
       </Text>
       <Text style={styles.instructions}>
-        This is my page on the Stockholm Public Library. Click the links to learn more!
+        This is my page on the Stockholm Public Library. I'm new to web development (just learned earlier today), so play nice! Click the links to learn more!
       </Text>
       <Button
         title="Basic info"
