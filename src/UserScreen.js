@@ -4,7 +4,7 @@ import YouTube from "react-youtube"
 import technical1 from './media/technical1.png'
 import technical2 from './media/technical2.png'
 import exterior1 from './media/exterior1.png'
-import exterior2 from './media/exterior2.png'
+import exterior2 from './media/exterior2mod.png'
 import drawing from './media/drawing.png'
 import interior from './media/interior.png'
 import pin1 from './media/pin1.png'
@@ -63,6 +63,8 @@ function exterior() {
       <img src={exterior1} alt="First exterior photo" />
       <Text style={styles.regJust}>{`This photo is taken on the hill, opposite the previous photo. Note the symmetrical doorframe on the opposite end of the building leading into the hill and the garden. Also note the level height of the top of the non-drum part of the building with the surrounding apartments. This level standing was an intentional visual bridge between the rest of the city and the library and the hill.`}</Text>
       <img src={exterior2} alt="Second technical drawing" />
+      <Text style={styles.biblio}>{`Kamperin, Per. “Stockholm Public Library.” Pinterest, 2016, www.pinterest.com/pin/486107353525004565/?lp=true.`}</Text>
+      <Text style={styles.biblio}>{`Berglund, Jan. “An End to the Draughts at Stockholm Public Library.” Tyrens, 24 Nov. 2016, www.tyrens.se/en/news/news/an-end-to-the-draughts-at-stockholm-public-library/.`}</Text>
     </View>
   );
 }
@@ -97,6 +99,7 @@ function building_interior() {
       <Text style={styles.welcome}>{`Interior of the building`}</Text>
       <Text style={styles.regJust}>{`The interior of the Stockholm Public Library. The rotunda is clearly visible above (see the small windows) with a lamp coming down from the ceiling. There’s no corners, just entrances and exits, and the desks are in the middle rather than flush with a wall.`}</Text>
       <img src={interior} alt="Interior" />
+      <Text style={styles.biblio}>{`Gurak, Wojtek. “Stockholm Public Library Interior.” Flickr, 13 Apr. 2011, www.flickr.com/photos/wojtekgurak/5617875768/sizes/l.`}</Text>
     </View>
   );
 }
@@ -129,6 +132,7 @@ function buildingvideo() {
         opts={opts}
       />
       <Text style={styles.regJust}>{`Something I learned that I didn't see in my other sources: Asplund originally wanted a dome, but stuck with a drum when faced with the practicalities of the situation. The only glass for the dome available to him at the time was matte, dull, gray, and, as he described it, sad. To prevent this negative impression, he decided to go with a drum instead.`}</Text>
+      <Text style={styles.biblio}>{`Group, The Velux, director. Daylight as a Driver of Change. YouTube, YouTube, 16 Sept. 2015, www.youtube.com/watch?v=xpOUhFtN-20.`}</Text>
     </View>
   );
 }
@@ -144,6 +148,7 @@ function photoalbum() {
       <Text style={styles.regJust}>{`Shows the imposing building from the city perspective (contrasting from the park - see the “bridge from city to park” motif earlier). Harsh lettering, fixed path, and scale make it show that this is an important building you’re visiting.`}</Text>
       <img src={pin3} alt="Third photo album sample" />
       <Text style={styles.regJust}>{`Park / plaza side of the building. Observe how it’s much less imposing than the city lead-in, fitting with the several-times-mentioned motif.`}</Text>
+      <Text style={styles.biblio}>{`Lin, Sascha. “Pintrest.” Pintrest, www.pinterest.com/linasasho/erik-gunnar-asplund-architectarkitekt/?lp=true.`}</Text>
     </View>
   );
 }
@@ -155,6 +160,7 @@ function blog() {
       <Text style={styles.subhead}>{`The blog can be located at https://lovetravellingblog.com/2018/11/16/day-15-a-visit-to-stockholm-public-library-before-heading-home/`}</Text>
       <Text style={styles.regJust}>{`This blog had several things of value. It had a picture I hadn't seen before (see below), and it gave me a specific figure: the library contains 40,000 books between its three levels. There wasn't too much the author said to agree or disagree with, but I agree that the building's many small spaces are very well themed and the children's mural is pretty.`}</Text>
       <img src={side_room} alt="The library side room" />
+      <Text style={styles.biblio}>{`Traveler, Little Miss. “A Visit to Stockholm Public Library before Heading Home.” Love Travelling, 16 Nov. 2018, lovetravellingblog.com/2018/11/16/day-15-a-visit-to-stockholm-public-library-before-heading-home/.`}</Text>
     </View>
   );
 }
@@ -199,6 +205,12 @@ function bibiliography() {
       <Text style={styles.biblio}>{`Linder, Greta. “Stockholm's New Public Library.” American Scandinavian Review, vol. 18, no. 2, Feb. 1930, pp. 104–106.`}</Text>
       <Text style={styles.biblio}>{`Mindel, Lee F. “The Architect’s Eye: Stockholm City Library.” Architectural Digest, 31 July 2014.`}</Text>
       <Text style={styles.biblio}>{`Grice, M., & Carolin, P. (2010). Working with asplund. Arq: Architectural Research Quarterly, 14(1), 77-79. doi:http://dx.doi.org/10.1017/S1359135510000655`}</Text>
+      <Text style={styles.biblio}>{`Kamperin, Per. “Stockholm Public Library.” Pinterest, 2016, www.pinterest.com/pin/486107353525004565/?lp=true.`}</Text>
+      <Text style={styles.biblio}>{`Berglund, Jan. “An End to the Draughts at Stockholm Public Library.” Tyrens, 24 Nov. 2016, www.tyrens.se/en/news/news/an-end-to-the-draughts-at-stockholm-public-library/.`}</Text>
+      <Text style={styles.biblio}>{`Gurak, Wojtek. “Stockholm Public Library Interior.” Flickr, 13 Apr. 2011, www.flickr.com/photos/wojtekgurak/5617875768/sizes/l.`}</Text>
+      <Text style={styles.biblio}>{`Group, The Velux, director. Daylight as a Driver of Change. YouTube, YouTube, 16 Sept. 2015, www.youtube.com/watch?v=xpOUhFtN-20.`}</Text>
+      <Text style={styles.biblio}>{`Lin, Sascha. “Pintrest.” Pintrest, www.pinterest.com/linasasho/erik-gunnar-asplund-architectarkitekt/?lp=true.`}</Text>
+      <Text style={styles.biblio}>{`Traveler, Little Miss. “A Visit to Stockholm Public Library before Heading Home.” Love Travelling, 16 Nov. 2018, lovetravellingblog.com/2018/11/16/day-15-a-visit-to-stockholm-public-library-before-heading-home/.`}</Text>
     </View>
   );
 }
