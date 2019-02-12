@@ -4,19 +4,43 @@ import { View, Text, StyleSheet, Button } from "react-native";
 const SecondScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.welcome}>Hi! Second Screen reporting for duty!</Text>
+      <Text style={styles.welcome}>Here, you'll find the basic info for the app!</Text>
       <Button
-        title="User #1"
-        onPress={() => navigation.navigate("User", { name: "Snufolafakus" })}
+        title="Most basic facts"
+        onPress={() => navigation.navigate("User", { name: "basic" })}
       />
       <Button
-        title="User #2"
+        title="Purpose and stakeholders"
         onPress={() =>
-          navigation.navigate("User", { name: "Simsalabimbambasaladusaladim" })
+          navigation.navigate("User", { name: "purpose" })
         }
       />
       <Button
-        title="Das Modal"
+        title="Plans of the building"
+        onPress={() =>
+          navigation.navigate("User", { name: "plans" })
+        }
+      />
+      <Button
+        title="Exterior photographs of the building"
+        onPress={() =>
+          navigation.navigate("User", { name: "exterior" })
+        }
+      />
+      <Button
+        title="Library print sources"
+        onPress={() =>
+          navigation.navigate("User", { name: "print" })
+        }
+      />
+      <Button
+        title="Drawing"
+        onPress={() =>
+          navigation.navigate("User", { name: "drawing" })
+        }
+      />
+      <Button
+        title="Who made this?"
         onPress={() => navigation.navigate("DasModal")}
       />
     </View>

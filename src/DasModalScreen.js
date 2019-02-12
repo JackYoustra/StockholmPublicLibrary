@@ -6,7 +6,7 @@ class DasModalScreen extends React.Component {
     return (
       <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
         <Text style={{ fontSize: 30 }}>
-          It's a Modal, and it's looking good.
+          Jack Youstra. Proudly, and late at night.
         </Text>
         <Button
           onPress={() => this.props.navigation.goBack()}

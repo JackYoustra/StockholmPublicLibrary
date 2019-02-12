@@ -15,9 +15,9 @@ const routeMap = {
     path: "/",
     exact: true
   },
-  Second: {
+  Basic_info: {
     component: SecondScreen,
-    path: "/second"
+    path: "/basic_info"
   },
   User: {
     component: UserScreen,

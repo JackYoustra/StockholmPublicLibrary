@@ -6,7 +6,7 @@ const TopNav = ({ history }) => {
   return (
     <View style={styles.main}>
       <Button title="Home" onPress={() => history.push("/")} />
-      <Button title="Second" onPress={() => history.push("/second")} />
+      <Button title="Basic info" onPress={() => history.push("/basic_info")} />
     </View>
   );
 };

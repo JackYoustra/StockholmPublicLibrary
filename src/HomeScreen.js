@@ -13,16 +13,15 @@ const HomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.welcome}>
-        Welcome to React Native Web universal app!
+        Welcome to my page on the Stockholm Public Library!
       </Text>
       <Text style={styles.instructions}>
         This component is shared between web and react environment. To see how
         it works, just edit the HomeScreen.js
       </Text>
-      <Text style={styles.instructions}>{instructions}</Text>
       <Button
         title="Go to Second!"
-        onPress={() => navigation.navigate("Second")}
+        onPress={() => navigation.navigate("Basic_info")}
       />
       <Button
         title="Das Modal"
